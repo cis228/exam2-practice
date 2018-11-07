@@ -1,0 +1,102 @@
+body {
+	font-family: Verdana, Helvetica, Arial, sans-serif;	
+	font-size: 12px;
+	background-image: url("../images/bokehBG.jpg");
+	background-attachment: fixed; /*background is fixed */
+	color: #674F5D;
+	margin: 0;
+
+}
+#allwrapper {
+	max-width: 851px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+h1, h2 {
+	font-family:  Georgia, "Times New Roman", Times, serif;
+}
+h1 {
+	text-shadow: 1px 1px #fcfcfc;
+	color: #8112b1;
+	text-align: center;
+	font-size: 4rem;
+}
+h2 {
+    color: #DBAA70;
+    font-size: 1rem;
+}
+
+nav ul {
+	padding-left: 0;
+}
+
+nav li {
+	list-style-type: none;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+nav a {
+	color: #BD92B2;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color:#FFFF99;	
+}
+.row {
+	display: flex;
+}
+
+.bg-trans1 {
+	background-color: rgba(0,0,0,0.2);
+}
+
+article > div{
+	width: 31%;
+	padding: 18px 2%;
+}
+
+.works {
+	list-style-type: none;
+	padding-left: 0;
+}
+.works li {
+	margin-bottom: 15px;
+}
+.works h4 {
+	font-weight: normal;
+	margin-left: 20px;
+}
+
+.works a {
+	color:#FFFF99;
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	padding: 20px 0;
+	margin-top: 25px;
+}
+
+footer nav {
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+}
+footer p, footer ul, footer li {
+	margin-top: 0;
+	margin-bottom: 0;		
+}
+
+footer a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+footer a:hover {
+	text-decoration: none;
+}
